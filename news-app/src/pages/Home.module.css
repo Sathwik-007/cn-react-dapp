@@ -1,0 +1,19 @@
+.main_content {
+  background: transparent;
+  height: 1650px;
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h5 {
+  margin-top: 10px;
+}
+.right_div {
+  margin-left: 30px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}

@@ -1,0 +1,39 @@
+.side_card {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 7px;
+  margin-top: 40px;
+}
+
+h4 {
+    margin: 20px 0px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+h6 {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+li {
+  counter-increment: item;
+}
+li:before {
+  content: counter(item);
+  font-size: 2em;
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+
+span, p {
+    color: grey;
+}

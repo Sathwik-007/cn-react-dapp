@@ -1,0 +1,20 @@
+.side_card {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+h4 {
+    margin-top: 20px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+h6 {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+hr {
+    color: grey;
+}

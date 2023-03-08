@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 3em;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.connect_wallet {
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 20px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+.wallet_connected {
+    border: none;
+    background-color: transparent;
+}
+
+.user_address {
+    font-size: 20px;
+    color: black;
+}
